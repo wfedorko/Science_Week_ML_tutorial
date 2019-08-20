@@ -1,7 +1,7 @@
-# TRISEP_ML_tutorial
+# Science Week Machine Learning hands-on session
 
 ## Introduction
-This repository holds the notebooks and code for the Machine Learning tutorial at TRISEP 2019 on August 1st and 2nd. We will explore the application of Convolutional Neural Networks to the problem of particle identification in Water Cherenkov Detector.
+This repository holds the notebooks and code for the Machine Learning hands-on session at 2019 Science Week, Data Science and Quantum Computing Workshop on August 23rd. We will explore the application of Convolutional Neural Networks to the problem of particle identification in Water Cherenkov Detector.
 Before proceeding please fork this repository by clicking on a button above in top right corner of the page.
 
 ## Acknowledgements
@@ -11,21 +11,6 @@ Big Thanks to Amazon Web Services for providing the computing resources enabling
 
 <a href="https://aws.amazon.com/what-is-cloud-computing"><img src="https://d0.awsstatic.com/logos/powered-by-aws.png" alt="Powered by AWS Cloud Computing"></a>
 
-
-## Starting on TRIUMF resources
-Log into triumf-ml1.triumf.ca Your username has been derrived from your email by taking the part before the `@` character and removing dashes and dots. e.g. email `winston-niles.rumfoord@infundibulum.space` gives username `winstonnilesrumfoord`. If the private key corresponding to the public key you gave me is not your default key you will need to specify it explicitly.
-```
-ssh -Y -i <path/my_private_key> <my_username>@triumf-ml1.triumf.ca
-```
-Then launch a screen/tmux session. Next clone your repository, enter a container where software is installed and launch jupyter notebook server. Instructions on how to set up ssh tunnel and bring up the jupyter root screen will be printed on your terminal.
-```
-screen
-git clone <your forked repo url> TRISEP_ML_tutorial
-cd TRISEP_ML_tutorial
-. find_this_ip
-./start_container.sh
-./start_jupyternotebook.sh
-```
 
 ## Starting up on AWS instance
 Log into your instance. username for everybody is `ubuntu`:
