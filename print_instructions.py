@@ -18,6 +18,8 @@ def print_instructions():
             port=match.group(1)
             print("In a terminal running local shell on your laptop paste:")
             print('ssh -L {}:localhost:{} {}@{} -N -f'.format(port, port, usr, myip))
+            print("NOTE: If you are using non-default keys you will need to point ssh client to your private key like this:")
+            print('ssh -i <path_to/my_private_key> -L {}:localhost:{} {}@{} -N -f'.format(port, port, usr, myip))
             print("then in your browser address bar paste:")
             print(line.lstrip())
             
