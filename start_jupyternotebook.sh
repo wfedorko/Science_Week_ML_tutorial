@@ -10,7 +10,7 @@
 unset XDG_RUNTIME_DIR
 
 thishost=localhost
-jupyter-notebook --no-browser --ip=$thishost --notebook-dir=$PWD >& jupyter_logbook.txt &
+stdbuf -oL jupyter-notebook --no-browser --ip=$thishost --notebook-dir=$PWD >& jupyter_logbook.txt &
 
 sleep 5
 echo ""
