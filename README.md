@@ -20,9 +20,9 @@ ssh -Y -i <path/my_private_key> ubuntu@<aws_instance_assigned_to_me>
 Then launch a screen/tmux session. Next clone your repository, set up pytorch environment and launch jupyter notebook server. Instructions on how to set up ssh tunnel and bring up the jupyter root screen will be printed on your terminal.
 ```
 screen
-git clone <your forked repo url> TRISEP_ML_tutorial
+git clone <your forked repo url>
 . anaconda3/bin/activate pytorch_p36
-cd TRISEP_ML_tutorial
+cd Science_Week_ML_tutorial
 . find_this_ip
 ./start_jupyternotebook.sh
 ```
@@ -30,7 +30,6 @@ If the instructions do not appear wait 10 seconds and then type:
 ```
 python print_instructions.py
 ```
-Note that if you are using non-default keys you will need to add ` -i <my_private_key> ` right after `ssh`
 
 ## Notebook order in the tutorial
 The sequence of the tutorial is:
