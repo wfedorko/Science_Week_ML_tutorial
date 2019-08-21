@@ -17,7 +17,7 @@ echo ""
 echo ""
 
 echo "_________________________________________________________________________"
-echo "**    FOLLOW THE INSTRUCTIONS BELOW BELOW TO SET UP AN SSH TUNNEL      **"
+echo "**    FOLLOW THE INSTRUCTIONS BELOW TO SET UP AN SSH TUNNEL      **"
 echo "_________________________________________________________________________"
 echo ""
 
