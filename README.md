@@ -20,7 +20,7 @@ ssh -Y -i <path/my_private_key> ubuntu@<aws_instance_assigned_to_me>
 Then launch a screen/tmux session. Next clone your repository, set up pytorch environment and launch jupyter notebook server. Instructions on how to set up ssh tunnel and bring up the jupyter root screen will be printed on your terminal.
 ```
 screen
-git clone <your forked repo url>
+git clone <your forked repo url> Science_Week_ML_tutorial
 . anaconda3/bin/activate pytorch_p36
 cd Science_Week_ML_tutorial
 . find_this_ip
